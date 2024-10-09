@@ -4,7 +4,7 @@
 [Click here to view the task](https://drive.google.com/file/d/1wYaONwsxxuxjTt2REqliQB7C8IfM_6yq/view)
 
 ## Screen Recording
-[Watch the screen recording here](./screenrecoding/screen-recording.webm)
+[Watch the screen recording here](https://drive.google.com/file/d/1HHZiAgfiT9aFp-ePHYhQXfyQCTUjQsAz/view?usp=sharing)
 
 ## Overview
 This project aims to combine various charts and statistics into a unified interface, allowing users to interact with data efficiently. It includes a bar chart, pie chart, and statistics for transaction data.
