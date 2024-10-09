@@ -1,31 +1,34 @@
-# React & Tailwind CSS Starter Pack
+# Assignment: Roxiler Assignment
 
-This is a starter pack for creating React projects with Tailwind CSS configured. It uses React version **18.2** and Tailwind CSS version **3.2**.
+## Task Link
+[Click here to view the task](https://drive.google.com/file/d/1wYaONwsxxuxjTt2REqliQB7C8IfM_6yq/view)
 
-## Usage
+## Screen Recording
+[Watch the screen recording here](./screenrecoding/screen-recording.webm)
 
-This starter pack includes a basic setup for using **Tailwind CSS with React**. To start building your own components and styles, follow these steps:
+## Overview
+This project aims to combine various charts and statistics into a unified interface, allowing users to interact with data efficiently. It includes a bar chart, pie chart, and statistics for transaction data.
 
-1. Clone the repository to your local machine.
-    ```sh
-    git clone https://github.com/thepranaygupta/react-tailwind-css-starter-pack.git
-    ```
+## Features
+- **Transaction Search**: Users can search transactions by keywords.
+- **Monthly Filtering**: Filter transactions based on the selected month.
+- **Bar Chart**: Displays the number of transactions in different price ranges.
+- **Pie Chart**: Shows categories of items sold for the selected month.
+- **Statistics**: Displays total sold items, unsold items, and total sales amount.
+- **Pagination**: Users can navigate through multiple pages of transaction data.
+  
+## Technologies Used
+- **Frontend**: React, Material UI, React-icons
+- **Charts**: `@mui/x-charts` for rendering bar charts
+- **Backend**: Express.js, MongoDB for handling transactions and categories
+- **API Integration**: Fetching data from the backend via REST APIs
+- **Deployment**: Vercel/Netlify (if applicable)
+  
+## How to Run
+1. Clone the repository.
+2. Install the dependencies: `npm install`
+3. Start the development server: `npm start`
+4. Ensure the backend is also running to fetch transaction data.
 
-1. Install the required packages.
-    ```sh
-    cd react-tailwind-css-starter-pack
-    npm install
-    ```
 
-1. Start the development server.
-    ```sh
-    npm start
-    ```
-1. Open the project in your browser at [`http://localhost:3000`](http://localhost:3000) to view your project.
-1. Create your React components and add your styles using Tailwind classes. You can also create new CSS files and import them into your components.
 
-The project is set up to use `postcss-cli` to process your CSS files. You can add your own `tailwind.config.js` file to customize your Tailwind setup.
-
-## Contributing
-
-Contributions are welcome! If you have any suggestions or find any issues, please feel free to open an issue or a pull request.
